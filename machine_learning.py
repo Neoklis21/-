@@ -44,7 +44,7 @@ if uploaded_file is not None:
         with tab1:
             
             st.sidebar.subheader('Scatter Plot')
-            features = data.columns[:-1]  # assuming the last column is the label
+            features = data.columns[:-1] 
             x_axis = st.sidebar.selectbox('Feature for X-axis', features)
             y_axis = st.sidebar.selectbox('Feature for Y-axis', features)
             

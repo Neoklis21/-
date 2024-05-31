@@ -29,4 +29,4 @@ else:
     st.info("Awaiting for file to be uploaded.")
 
 
-st.sidebar.info('This application allows you to upload CSV or Excel files and display the data.')
+
